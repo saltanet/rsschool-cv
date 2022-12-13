@@ -1,48 +1,51 @@
 /* background-image: url('../assets/img/image.jpg'); */
 @font-face {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   src: url("assets/fonts/RobotoThin.ttf");
   font-weight: 100;
 }
 @font-face {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   src: url("assets/fonts/RobotoRegular.ttf");
   font-weight: 300;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-
+a.button {
+  background-color: bisque;
+  border: 10px;
+  border-color: black;
+}
 * {
-    box-sizing: border-box;
-    border: 1px solid red;
-    
-  }
-  .container {
-    max-width: 1440px;
-    margin: 0 auto;
-  }
-  .nav-list {
+  box-sizing: border-box;
+  text-align: center;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.nav-list {
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
 html {
-  scroll-behavior: smooth; 
+  scroll-behavior: smooth;
 }
 .nav-link {
   padding: 0 20px;
   line-height: 50px;
-  transition: .3s;
+  transition: 0.3s;
 }
 .section-item a {
   color: #829985;
-  text-decoration: none;  
+  text-decoration: none;
   transition: color 0.5s;
 }
 .section-item a:hover {
